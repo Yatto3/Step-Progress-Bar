@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step Progress Bar</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+        <div class="progress-container">
+            <div class="progress-bar">
+                <div class="elements">
+                   
+                    <div class="step" style="border-color: rgb(15, 144, 3); background-color:white" >
+                        <div style="font-weight: 900; color : rgb(15, 144, 3)"  >
+                            ✓
+                        </div>
+                    </div>
+                    
+                    <div class="side-line">
+                        <div data-backLine class="background-bar"></div>
+                    </div>
+                    <div class="step">
+                        <div style="font-weight: 900;">
+                            X
+                        </div>
+                    </div>
+                    <div class="side-line">
+                        <div data-backLine class="background-bar"></div>
+                    </div>
+                    <div class="step">
+                        <div style="font-weight: 900;">
+                            X
+                        </div>
+                    </div>
+                    <div class="side-line">
+                        <div data-backLine class="background-bar"></div>
+                    </div>
+                    <div class="step">
+                        <div style="font-weight: 900;">
+                            X
+                        </div>
+                    </div>
+                    <div class="side-line">
+                        <div data-backLine class="background-bar"></div>
+                    </div>
+                    <div class="step">
+                        <div style="font-weight: 900;">
+                            X
+                        </div>
+                    </div>
+                </div>
+                <div class="info">
+                    <div>Start</div>
+                    <div style="opacity: 0;">Step1</div>
+                    <div style="opacity: 0;">Step2</div>
+                    <div style="opacity: 0;">Step3</div>
+                    <div style="opacity: 0;">Final</div>
+                </div>
+            </div>
+            
+            <div class="nav-buttons">
+               <div>
+                    <button data-back><</button>
+               </div>
+               <div>
+                    <button data-forward>></button>
+           </div>
+            </div>
+        </div>
+</body>
+</html>
